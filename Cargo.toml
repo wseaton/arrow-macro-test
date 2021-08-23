@@ -1,0 +1,10 @@
+[package]
+name = "arrow-macro-test"
+version = "0.1.0"
+edition = "2018"
+publish = false
+
+[dependencies]
+arrow2 = "*"
+arrow2-derive = { git = "https://github.com/jorgecarleitao/arrow2-derive.git", branch = "main" }
+
